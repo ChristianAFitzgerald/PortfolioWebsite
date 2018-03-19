@@ -1,0 +1,14 @@
+Ideas for my personal website code:
+writing new pages at the click of a button- innerhtml,getElementById,onclick
+https://www.w3schools.com/howto/default.asp contains these tricks:
+Sidenav push w/ opacity
+Slideshow 
+Parallax Scrolling
+Progress Bar -Maybe use?- 
+Social Media Buttons
+Hero Image
+Scroll Drawing
+Custom Scrollbar
+Fullscreen Video Background
+------This one I have to learn on my own:
+Main Page Image split nav, like Justin V's Page
