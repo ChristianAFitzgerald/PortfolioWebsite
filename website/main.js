@@ -1,0 +1,1 @@
+// JavaScript for all pages, when applicable
