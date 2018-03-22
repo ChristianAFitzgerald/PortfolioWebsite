@@ -1,10 +1,12 @@
 /* CSS file for all pages */
-
+/* #9a9b9e is background color for reference*/
 * {
     font-family: "Times New Roman", Times, serif;
 
 }
-
+.background{
+    background-color: #9a9b9e;
+}
 
 /* All of this is for the slideshow*/
 
@@ -13,10 +15,9 @@
 }
 
 .slide {
-    width: 99%; 
+    width: 100%; 
  
 }
-
 /* Slideshow container */
 
 .slideshow-container {
@@ -65,11 +66,12 @@
 /* Caption text */
 
 .text {
+    font-size: 40px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: -13px;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 /* The dots/bullets/indicators */
