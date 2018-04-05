@@ -6,9 +6,10 @@
     font-family: "Times New Roman", Times, serif;
 
 }
-
-.background {
+ 
+body {
     background-color: #9a9b9e;
+    margin: 0px;
 }
 
 /* Navigation CSS Stuff */
@@ -205,4 +206,12 @@
     to {
         opacity: 1
     }
+}
+.Chrisisflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
 }
