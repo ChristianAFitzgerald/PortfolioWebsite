@@ -1,11 +1,18 @@
 Everything I need to do for my website by the time it's due at the end of class on Friday:
 About Me - Pro Picture
-Programming - slideshow it - pictures for my websites and work
-Writing-Technology - Same as above + pictures for photoshop fruit smile
-Resume - Picture of wireframed website
+Programming - slideshow it - pictures for my websites and work, include link to js example or include it
+Writing-Technology - Make Flex work
+Resume - Logos maybe?
 
 Things I've completed:
 
 Home Page
 Main Portfolio Page
 Contact Page
+
+
+
+- Due Sunday at Midnight You will need to fix the flex on Writing-tech,
+slideshow programming, add to the Resume page, and get that professional image of yourself...
+Javascript Excercise 5 and my JS Calculator are included so that I may reference them in the Programming
+section. GL

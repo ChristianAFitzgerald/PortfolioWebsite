@@ -13,7 +13,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+// this keeps track of the current slide count and allows my slideshow to transition
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");

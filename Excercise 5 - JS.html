@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="min()">
+       Find minimum
+   </button>
+    <button onclick="findN()">
+       Find Evenness
+   </button>
+   <button onclick="prepCount()">
+       Count Letters!
+   </button>
+    <script>
+        // Minimum Function
+        function min(one, two) {
+            var one = prompt('Please enter a number:', 'numbers only')
+            var two = prompt('Please enter a number:', 'numbers only')
+            // The above collects input
+            // Known issue: Tries to run user input on load but doesn't collect...
+            if (one < two) {
+                document.getElementById('min').innerHTML = one
+            } else {
+                document.getElementById('min').innerHTML = two
+            }
+            // The above rewrites "minimum number" with whatever number is smaller
+
+        }
+        // this checks for eveness
+    function findN(){
+         n = prompt('Please enter a number:', 'numbers only')
+         isEven(n)
+    }    
+        function isEven(n) {
+            if(n == 1){
+                document.getElementById('even').innerHTML = "Odd";
+                return;
+            }
+            else if(n == 0){
+                document.getElementById('even').innerHTML = "Even";  
+             return;
+            }
+            else if(n <= -1){
+               
+               isEven(n);   
+              return;
+            }
+            else{
+            isEven(n - 2);
+                return;
+                
+            }
+            
+        }
+        
+        //counting letters
+        // this activates the counter via a button in the document
+        function prepCount(){
+            var s = prompt("Enter a letter", "")
+            var sample = prompt("Enter a sentence", "")
+            countChar(s, sample)
+        }
+        // this does the counting
+    function countChar(s, sample){
+        let c = 0
+        for(i = 0 ; i < sample.length; i++ ){
+        if (sample.charAt(i) === s){
+            c++
+            console.log(c)
+        }
+            document.getElementById("charcount").innerHTML = c
+        }
+    }    
+    </script>
+
+
+
+    <p id="min">
+        Minimum number
+    </p>
+    <p id="even">
+        Even or Odd?
+    </p>
+    <p id="charcount">
+    Counting letters in a string!    
+    </p>
+</body>
+
+</html>
+

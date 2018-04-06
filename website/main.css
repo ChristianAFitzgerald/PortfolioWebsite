@@ -6,7 +6,7 @@
     font-family: "Times New Roman", Times, serif;
 
 }
- 
+
 body {
     background-color: #9a9b9e;
     margin: 0px;
@@ -30,10 +30,13 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 /* Text was too dark for some images, so use this for a fix*/
-.fixit{
-    color: #ffffff ;
+
+.fixit {
+    color: #ffffff;
 }
+
 /* The dropdown container */
 
 .dropdown {
@@ -207,6 +210,19 @@ body {
         opacity: 1
     }
 }
+
+.center {
+    text-align: center;
+}
+/*This Is for lists that don't need bullets*/
+
+.listIt {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+/* Flex stuff*/
+
 .Chrisisflex {
     display: flex;
     flex-direction: row;
@@ -214,4 +230,33 @@ body {
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
+}
+
+/*Flex for the writing page*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+}
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(3) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
 }
